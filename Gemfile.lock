@@ -1,6 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    pg (0.21.0)
+    pg (0.21.0-x64-mingw32)
     rack (1.6.8)
     rack-protection (1.5.3)
       rack
@@ -11,13 +13,12 @@ GEM
     tilt (2.0.8)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
+  pg
   sinatra (~> 1.4.0)
-
-RUBY VERSION
-   ruby 2.4.2p198
 
 BUNDLED WITH
    1.15.4
